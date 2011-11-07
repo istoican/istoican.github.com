@@ -1,0 +1,41 @@
+body {
+    background: url(bg.jpg);
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial;
+}
+body.blue h1 {
+    color: #097DC9;
+}
+body.blue a {
+    color: #107ABF;
+}
+
+body.red h1 {
+    color: #C52626;
+}
+body.red a {
+    color: #C82525;
+}
+
+body.green h1 {
+    color: #609A0B;
+}
+body.green a {
+    color: #619A0A;
+}
+
+#wrapper {
+    margin: 40px auto 0 auto;
+    width: 920px;
+}
+#flickr {
+    width:550px;
+}
+.flickr_badge_image {
+    margin:0 5px 10px 5px; 
+    float:left;
+}
+.flickr_badge_image img {
+    border: 1px solid black !important;
+}
