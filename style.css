@@ -1,5 +1,5 @@
 body {
-    background: url(bg.jpg);
+    background: #fefefe;
     margin: 0;
     font-size: 12px;
     font-family: Arial;
@@ -27,15 +27,22 @@ body.green a {
 
 #wrapper {
     margin: 40px auto 0 auto;
-    width: 920px;
+    width: 40em;
 }
-#flickr {
-    width:550px;
+#footer {
+    margin-top: 2em;
+    border-top: 4px solid #EEEEEE;
+    color: #ccc;
+    text-align: right;
 }
-.flickr_badge_image {
-    margin:0 5px 10px 5px; 
-    float:left;
+#footer left {
+    float: left;
 }
-.flickr_badge_image img {
-    border: 1px solid black !important;
+#footer right {
+    float: right;
 }
+
+h1 {
+    margin-bottom: 2em;
+}
+
