@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
     <head>
-        <meta charset="UTF-8" />
         <title>Ionut Stoican</title>
-        <link rel="profile" href="http://gmpg.org/xfn/11" />
-        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
-        <link rel='index' title='Ionut Stoican' href='http://stoican.eu' />
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="Ionut Stoican" />
-        <link rel="canonical" href="http://stoican.eu/" />
         
         <script type="text/javascript">
 			  var _gaq = _gaq || [];
@@ -20,38 +18,103 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			  })();
         </script>
-        <link rel="openid.server"   href="http://www.myopenid.com/server" />
-        <link rel="openid.delegate" href="http://ionut.stoican.myopenid.com/" />
-        <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=ionut.stoican.myopenid.com" />
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+        <style>
+			body {
+				font-family: 'Open Sans', sans-serif;
+    			line-height: 1.5rem;
+			    font-size: 1rem;
+			    color: #000000;
+				background-color: #FFF6E5;
+			    margin: 0;
+			}
+			a {
+				color: #2185C5;
+				opacity: 1;
+			}
+			.container {
+				width: 90%;
+				max-width: 600px;
+				margin: 4em auto;
+			}
+			.container::after {
+				clear: both;
+				content: "";
+				display: block;
+			}
+			.hero {
+				margin: 0;
+				color: #2185C5;
+				line-height: 3rem;
+				font-weight: normal;
+				font-size: 1.777rem;
+			}
+			.bio {
+				font-size: 1.333rem;
+				font-weight: normal;
+				line-height: 2.5rem;
+				opacity: .54;
+				margin-top: 0.5rem;	
+			}
+			.featured {
+				font-size: 1rem;
+				font-weight: normal;
+				line-height: 1.25rem;
+				opacity: .87;
+			}
+			.footer {
+				margin-top: 4rem;
+				text-align: right;
+			}
+			.footer__link {
+				color: #3E454C;
+				display: inline-block;
+				padding: 0 15px 0 15px;
+				font-size: 1rem;
+				opacity: .87;	
+			}
+			@media (min-height: 800px) {
+				.container, .footer {
+					margin-top: 16rem;
+				}
+			}
+		</style>
     </head>
+
     <body>
-        <div id="wrapper">
-            <h1>Ionut Stoican</h1>
-            <p>Hello,</p>
-            <p></p>
-            <p>My name is Ionut Stoican.</p>
-            <p>I am studing Computer Science at the <a href="http://www.pub.ro/">University of Bucharest.</a></p>
-            <p>Besides the studies, I am working at <a href="http://www.1and1.com">1&#038;1</a> in the APS department, packaging open source applications into hosting platforms that conform to the <a href="http://www.apsstandard.com/">Application Packaging Standard</a> format.</p>
-            <p>In case you are wondering, I’m <a href="http://en.wikipedia.org/wiki/Romania">Romanian</a> and I was born and raised in <a href="http://en.wikipedia.org/wiki/Bucharest">Bucharest</a>.</p>
-            <div id="footer">
-                <div class="left">
-                    <p>
-                        Ionut Stoican
-                        <br/>
-                        [ contact at stoican dot eu ] 
-                    </p>
-                </div>
-                <div class="right">
-                    <p>
-                        <a href="http://ro.linkedin.com/in/ionutstoican" >linkedin.com/in/ionutstoican</a>                
-                        <br/>
-                        <a href="http://flickr.com/photos/ionut-stoican">flickr.com/photos/ionut-stoican</a>
-                        <!--<a href="http://www.flickr.com/photos/ionut-stoican/">Flickr</a>-->
-                    </p>   
-                </div>
+        <div class="container">
+			<!--
+				<div class="header">
+            	<h1 class="header__title">Ionut Stoican</h1>
+				
+				<div class="navigation">
+					<a class="#projects">Projects</a>
+				</div>
+			</div>
+			-->
+            <h1 class="hero">
+				<b>Ionut</b> is a full stack software developer.
+			</h1>
+			<p class="bio">
+				 With extensive experience in web development, I am equally passionated on both front-end and back-end facets.
+			</p>
+
+			<!--
+            <p class="featured">
+				You can email me at <a href="mailto:ionut@stoican.eu">ionut@stoican.eu</a> .
+            </p>
+
+            <p class="featured">
+				In case you are wondering, I’m <a href="http://en.wikipedia.org/wiki/Romania">Romanian</a> and I was born and raised in <a href="http://en.wikipedia.org/wiki/Bucharest">Bucharest</a>.
+			</p>
+			-->
+            <div class="footer">
+				<a href="/" class="footer__link">Home</a>                
+				<a href="http://ro.linkedin.com/in/ionutstoican" class="footer__link">LinkedIn</a>                
             </div>
         </div>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
     </body>
 </html>
 
