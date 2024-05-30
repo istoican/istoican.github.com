@@ -1,2 +1,2 @@
 run:
-	python -m SimpleHTTPServer 7000
+	python2 -m SimpleHTTPServer 7000
